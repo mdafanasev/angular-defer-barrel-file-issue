@@ -5,7 +5,12 @@ import { OneComponent, TwoComponent } from "./feature";
   selector: "app-root",
   standalone: true,
   imports: [OneComponent, TwoComponent],
-  template: `<app-one /><app-two />`,
+  template: `
+    @defer {
+      <app-one />
+    }
+    <app-two />
+  `,
   styles: [],
 })
 export class AppComponent {
