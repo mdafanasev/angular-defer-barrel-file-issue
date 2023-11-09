@@ -1,5 +1,6 @@
 import { Component } from "@angular/core";
-import { OneComponent, TwoComponent } from "./feature";
+import { OneComponent } from "./feature/one.component";
+import { TwoComponent } from "./feature";
 
 @Component({
   selector: "app-root",

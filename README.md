@@ -2,6 +2,8 @@
 
 This repository demonstrates the incorrect behavior of the defer syntax when a component is loaded from a barrel file (`index.ts` with re-exports)
 
+[Link to the issue](https://github.com/angular/angular/issues/52554)
+
 ## Description of issue
 
 **Steps to reproduce:**
